@@ -17,23 +17,51 @@ body {
 /* MY MAIN STYLING */
 .main-content {
   width: 50%;
-  height: 500px;
-  margin: 0 auto;
+  height: 300px;
+  border-radius: 30px;
+  /* margin: 0 auto; */
+  /* padding: 30px; */
+  /* display: flexbox;
+  justify-content: center;
+  align-items: center; */
+  margin-top: 100px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
   background: var(--primary);
+}
+h1,
+h2,
+p {
+  text-align: center;
+  /* width: 70%;
+  margin-top: 0;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto; */
 }
 
 .btn1,
 .btn2 {
-    width: 30px;
-    padding: 10px;
+  width: 100px;
+  padding: 10px;
+  display: block;
 }
 
 .btn1 {
-    background: var(--increment-btn);
-    color: var(--light);
+  background: var(--increment-btn);
+  color: var(--light);
+  margin-top: 0;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn2 {
-    background: var(--saved-btn);
-    color: var(--light);
+  background: var(--saved-btn);
+  color: var(--light);
+  /* margin-top: 0;
+  margin-bottom: 15px; */
+  margin-left: auto;
+  margin-right: auto;
 }
