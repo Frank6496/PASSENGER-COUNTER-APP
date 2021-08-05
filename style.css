@@ -1,0 +1,39 @@
+:root {
+  --primary: #234;
+  --saved-btn: red;
+  --increment-btn: green;
+  --light: #fff;
+}
+/* MY GLOBAL STYLES */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* MY MAIN STYLING */
+.main-content {
+  width: 50%;
+  height: 500px;
+  margin: 0 auto;
+  background: var(--primary);
+}
+
+.btn1,
+.btn2 {
+    width: 30px;
+    padding: 10px;
+}
+
+.btn1 {
+    background: var(--increment-btn);
+    color: var(--light);
+}
+
+.btn2 {
+    background: var(--saved-btn);
+    color: var(--light);
+}
