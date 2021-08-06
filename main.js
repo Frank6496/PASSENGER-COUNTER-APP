@@ -9,7 +9,7 @@ let count = 0;
 let incrementedEl = document.getElementById("incremented-count");
 
 function incrementCount() {
-  count += count;
+  count += 1;
   incrementedEl.innerText = count;
   //   console.log(count);
 }
@@ -17,7 +17,7 @@ function incrementCount() {
 let savedCount = document.getElementById("saved-count");
 
 function save() {
-  count += count;
-  savedCount.innerText = count;
+  countingStr = count + " - ";
+  savedCount.innerText += countingStr;
   //   console.log(count);
 }
