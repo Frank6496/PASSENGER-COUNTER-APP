@@ -19,5 +19,7 @@ let savedCount = document.getElementById("saved-count");
 function save() {
   countingStr = count + " - ";
   savedCount.textContent += countingStr;
+  incrementedEl.innerText = 0;
+  count = 0;
   //   console.log(count);
 }
