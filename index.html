@@ -5,16 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Passenger Counter App</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main class="main-content">
       <h1>Counting the Passenger's</h1>
 
       <h2 id="incremented-count">0</h2>
-      <button id="increment" onclick="increment()">INCREMENT</button>
+      <button id="increment" class="btn1" onclick="incrementCount()">
+        INCREMENT
+      </button>
 
-      <button id="save" onclick="save()">SAVE</button>
-      <p id="saved-count">0</p>
+      <button id="save" class="btn2" onclick="save()">SAVE</button>
+      <p id="saved-count">Previous Entries:</p>
     </main>
+
+    <script src="./main.js"></script>
   </body>
 </html>
