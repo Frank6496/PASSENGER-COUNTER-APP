@@ -18,6 +18,6 @@ let savedCount = document.getElementById("saved-count");
 
 function save() {
   countingStr = count + " - ";
-  savedCount.innerText += countingStr;
+  savedCount.textContent += countingStr;
   //   console.log(count);
 }
